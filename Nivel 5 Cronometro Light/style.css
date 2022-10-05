@@ -1,0 +1,57 @@
+:root{
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*{
+  --bg-bd: #ffffff;
+  --tc-tm: #323238;
+}
+
+body{
+  height: 100vh;
+  background-color: var(--bg-bd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19rem;
+}
+
+.counter{
+ display: grid;
+ justify-items: center;
+ gap: 3rem;
+ max-width: 32rem;
+}
+
+.timer span{
+  font-size: 12rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--tc-tm);
+}
+
+.buttonsTimer{
+  display: flex;
+  gap:2.5rem;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sons{
+  display: grid;
+  grid-template-areas: "a b"
+  "c d";
+  gap: 2rem;
+
+}
+
+.hide{
+  display: none;
+}
+
